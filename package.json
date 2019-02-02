@@ -1,0 +1,44 @@
+{
+  "name": "imm-app",
+  "version": "0.0.1",
+  "description": "Intelligent Media Monitoring Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intelgenesis/imm-app.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nextjs",
+    "redux",
+    "media",
+    "monitoring"
+  ],
+  "author": "Intel Genesis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intelgenesis/imm-app/issues"
+  },
+  "homepage": "https://github.com/intelgenesis/imm-app#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
